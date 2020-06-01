@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SinglePlayer">
+
+    <TextView
+        android:id="@+id/countDown"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="ARE YOU READY?"
+        android:textSize="85sp"
+        android:fontFamily="@font/hemi_head"
+        />
+
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_double_arrow_24" />
+
+    <TextView
+        android:id="@+id/roundNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:fontFamily="@font/homoarak"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        />
+
+
+    <TextView
+        android:id="@+id/scoreNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="55sp"
+        android:fontFamily="@font/homoarak"
+        android:gravity="right"
+        android:text=""
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>

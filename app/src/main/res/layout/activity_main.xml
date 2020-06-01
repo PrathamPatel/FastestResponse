@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily= "@font/good_times"
+        android:textSize="45sp"
+        android:text="FASTEST RESPONSE"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:text="TILT PHONE IN THE DIRECTION OF THE ARROW WHEN THE GAME STARTS"/>
+
+    <Button
+        android:id="@+id/single"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65sp"
+        android:background="@drawable/start_round_button"
+        android:fontFamily="@font/homoarak"
+        android:text="SINGLE PLAYER"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+</RelativeLayout>

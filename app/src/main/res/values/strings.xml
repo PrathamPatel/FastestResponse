@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FASTEST RESPONSE</string>
+    <string name="round">ROUND:</string>
+    <string name="score">SCORE:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

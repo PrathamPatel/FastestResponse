@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalScore"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:fontFamily="@font/good_times"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="YOUR FINAL SCORE IS:"/>
+
+    <TextView
+        android:id="@+id/finalScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/hemi_head"
+        android:textSize="85sp"
+        android:text="1"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finalScore"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/final_score_buttons"
+        android:paddingLeft="12sp"
+        android:paddingTop="10sp"
+        android:paddingRight="12sp"
+        android:paddingBottom="10sp"
+        android:text="RESTART"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginLeft="165sp"
+        android:fontFamily="@font/hemi_head"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/mainMenu"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finalScore"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/final_score_buttons"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="12sp"
+        android:paddingTop="10sp"
+        android:paddingRight="12sp"
+        android:paddingBottom="10sp"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginRight="165sp"
+        android:fontFamily="@font/hemi_head"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>
